@@ -1,0 +1,21 @@
+/* Existem dois tipos de unidades de medida: Absoluta e Relativa */
+
+/* Absolutas */
+Centímetros (cm)
+Milímetros (mm)
+Polegas (in)
+Pixels (px)
+Pontos (pt)
+Paicas (pc)
+
+/* Relativas */
+Porcentagem (%)
+M (em)
+Root M (rem)
+Unidade do Caractere (ch)
+X (ex)
+Largura da Janela de Exibição (vw)
+Altura da Janela de Exibição (vh)
+Janela de Exibição Mínima (vmin)
+Janela de Exibição Máxima (vmax)
+Fração Restante (fr)

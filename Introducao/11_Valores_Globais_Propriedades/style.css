@@ -1,0 +1,11 @@
+/* initial */
+/* Este valor irá forçar a reinicialização do valor padrão da propriedade */
+
+/* inherit */
+/* Este valor irá atribuir a herança explicita para a propriedade aplicada. */
+
+/* unset */
+/* Este valor desabilita a propriedade em questão */
+
+/* revert */
+/*Este valor tem a mesma função do valor initial porém é aplicado apenas ao navegador Safari */

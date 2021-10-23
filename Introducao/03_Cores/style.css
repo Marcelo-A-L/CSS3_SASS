@@ -1,0 +1,27 @@
+/* Por nomes */
+* {
+    background: black;
+}
+
+/* Por RGB, vai de 0 a 255 */
+* {
+    background: rgb(255, 150, 100);
+}
+
+/* Por Hexadecimal, #RRGGBB, 00 a FF, 0 1 2 3 4 5 6 7 8 9 A B C D E F */
+* {
+    background: #a9b9ca;
+}
+
+/* Por HSL, Hue (0 a 360), Saturation (0% a 100%), Light (0% a 100%)
+                Matiz, Saturação e Brilho */
+* {
+    background: hsl(200, 50%, 50%);
+}
+
+/* Transparência, Alpha, vai de 0 a 1, 50% de transparência é 0.5 ou em Hexadecimal de 00 a FF */
+* {
+    background: rgba(red, green, blue, alpha);
+                        /* #RRGGBBAA */
+    background: hsla(hue, saturation, lightness, alpha);
+}

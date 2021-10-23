@@ -1,0 +1,29 @@
+/* Seletor Universal */
+* {
+    background: black;
+}
+
+/* Seletor por Tipo */
+body {
+    background: black;
+}
+
+/* Seletor por Classe */
+.fundo-preto {
+    background: black;
+}
+
+/* Seletor por ID */
+#nome {
+    background: black;
+}
+
+/* Seletor por Atributo */
+[type="text"] {
+    background: black;
+}
+
+/* Seletor por Pseudos */
+:hover {
+    background: black;
+}

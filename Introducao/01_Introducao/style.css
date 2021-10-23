@@ -1,0 +1,7 @@
+/* Sintaxe */
+
+/* Grupo de seletores */
+header, section, footer { /* Bloco de declarações */
+    /* Propriedade da declaração, separador, valor da declaração e fim da declaração. */
+    background: black;
+}

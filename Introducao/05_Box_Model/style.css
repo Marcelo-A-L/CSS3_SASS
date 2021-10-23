@@ -1,0 +1,56 @@
+/* Margens, Bordas, preenchimento e o conteúdo */
+
+/* 
+Largura: 50
+Altura: 10
+Preenchimento: 2
+Borda: 1
+Margem: 5
+ */
+
+/* Tamanho da Caixa por Conteúdo */
+
+ * {
+     box-sizing: content-box;
+ }
+
+ seletor {
+     width: 50px;
+     height: 10px;
+     padding: 2px;
+     border-width: 1px;
+     margin: 5px;
+ }
+
+ /* Tamanho da Caixa por Borda */
+
+ * {
+    box-sizing: border-box;
+}
+
+seletor {
+    width: 50px;
+    height: 10px;
+    padding: 2px;
+    border-width: 1px;
+    margin: 5px;
+}
+
+/* Ordem, sentido horário */
+
+TOP -> RIGHT -> BOTTOM -> LEFT
+
+/* Abreviações de Valores */
+
+* {
+    margin: 0; /* Todos os quatro lados irão receber o valor 0 */
+}
+
+* {
+    margin: 0 0; /* Top e Bottom vai receber 0; Right e Left vai receber 0 */
+}
+
+* {
+    margin: 0 0 0 0;
+        /*  T R B L  */
+}

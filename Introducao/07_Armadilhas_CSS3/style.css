@@ -1,0 +1,15 @@
+.pagina {
+    background-image: url(../../../DevWebFullStack/Img/Perfil_Freedom_Linux.jpg);
+}
+
+.pagina .bloco {
+    /* >, será aplicado apenas no filho */
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    background-color: blue;
+}
+
+.bloco {
+    background-color: red !important;
+}

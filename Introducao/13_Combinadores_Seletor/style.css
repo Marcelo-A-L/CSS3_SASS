@@ -1,0 +1,23 @@
+/* Combinador Descendente */
+form input { /* Combinado por um espaço em branco */
+    color: blue;
+    border: 2px solid red;
+}
+
+/* Combinador Filho Direto */
+form > input {
+    color: blue;
+    border: 2px solid blue;
+}
+
+/* Combinador Irmão Adjacente */
+form + input {
+    color: blue;
+    border: 4px solid black;
+}
+
+/* Combinador Irmão Geral */
+form ~ input {
+    color: blue;
+    border: 2px solid gold;
+}
